@@ -40,6 +40,7 @@ src/
 │
 └── apollo/
     └── apolloClient.ts          # Apollo Client setup with API key + cache
+```
     
 1. Performance Optimization
 
@@ -86,6 +87,3 @@ Mobile-first responsive design with breakpoints at 768px
 Touch-friendly interactions with appropriate sizing
 
 Smooth transitions and hover states
-
-
-

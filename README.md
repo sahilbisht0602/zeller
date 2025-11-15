@@ -7,7 +7,7 @@ The application uses:
 - **Styled-components** for component-level styling  
 - **React Testing Library + Jest** for unit & integration testing  
 
-# 🛠️ Technical Stack
+#  Technical Stack
 
 **Framework:** React 18.2 + TypeScript 4.9  
 **Styling:** Styled-components 5.3.11  

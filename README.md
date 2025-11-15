@@ -1,4 +1,4 @@
-# 📌 Project Overview
+#  Project Overview
 
 This is a **React + TypeScript** application built to display and filter **Zeller customers** by their roles (Admin / Manager).  
 The application uses:
@@ -7,8 +7,6 @@ The application uses:
 - **Styled-components** for component-level styling  
 - **React Testing Library + Jest** for unit & integration testing  
 
----
-
 # 🛠️ Technical Stack
 
 **Framework:** React 18.2 + TypeScript 4.9  
@@ -16,9 +14,7 @@ The application uses:
 **State & Data:** Apollo Client 3.9  
 **Testing:** Jest + React Testing Library  
 
----
-
-# 🧱 Architecture & Approach
+#  Architecture & Approach
 
 ```text
 src/

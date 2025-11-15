@@ -40,3 +40,52 @@ src/
 │
 └── apollo/
     └── apolloClient.ts          # Apollo Client setup with API key + cache
+    
+1. Performance Optimization
+
+Implemented React.memo() on components to prevent unnecessary re-renders
+
+Used useMemo() for expensive filtering operations
+
+Configured Apollo Client with cache-and-network fetch policy for optimal data caching
+
+Memoized customer items in the list to avoid re-rendering unchanged items
+
+Used useCallback() for event handlers to maintain referential equality
+
+2. Test Coverage
+
+Integration Tests: Filter and list interactions tested together
+
+Edge Cases: Empty states, null values, and error boundaries covered
+
+Accessibility: ARIA labels and roles tested
+
+Test coverage includes:
+
+Loading states
+
+Error handling
+
+Empty data scenarios
+
+Role filtering (Admin, Manager, All)
+
+3. Code Quality
+
+Strict TypeScript configuration with explicit types
+
+Separation of concerns (components, hooks, utilities)
+
+Error boundaries and graceful error handling
+
+4. UI Quality & Responsiveness
+
+Mobile-first responsive design with breakpoints at 768px
+
+Touch-friendly interactions with appropriate sizing
+
+Smooth transitions and hover states
+
+
+

@@ -87,3 +87,12 @@ Mobile-first responsive design with breakpoints at 768px
 Touch-friendly interactions with appropriate sizing
 
 Smooth transitions and hover states
+
+# Start development server
+npm run start
+
+# Run tests
+npm test
+
+# Build for production
+npm build
